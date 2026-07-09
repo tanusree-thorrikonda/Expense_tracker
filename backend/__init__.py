@@ -37,7 +37,7 @@ def create_app():
         def is_accessible(self):
             return session.get("user_id") is not None
 
-    admin = Admin(app, name='Database Viewer')
+    admin = Admin(app, name='Expense database')
     admin.add_view(SecureModelView(User, db.session, endpoint='admin_user'))
     admin.add_view(SecureModelView(Transaction, db.session, endpoint='admin_transaction'))
 
