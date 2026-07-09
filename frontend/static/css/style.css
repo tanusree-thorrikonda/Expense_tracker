@@ -1,0 +1,104 @@
+body {
+    background-color: #f5f7fa;
+}
+
+
+.navbar {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+
+.summary-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+}
+
+
+.summary-label {
+    color: #6c757d;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+
+.summary-amount {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+
+.income-card {
+    border-left: 5px solid #198754;
+}
+
+
+.expense-card {
+    border-left: 5px solid #dc3545;
+}
+
+
+.balance-card {
+    border-left: 5px solid #0d6efd;
+}
+
+
+.card {
+    border-radius: 12px;
+}
+
+
+.form-page {
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+
+.form-card {
+    border: none;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+
+.description-column {
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.empty-state {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+
+.table th {
+    white-space: nowrap;
+}
+
+
+@media (max-width: 768px) {
+
+    .navbar .container {
+        gap: 12px;
+    }
+
+    .description-column {
+        max-width: 140px;
+    }
+
+}
+
+.chart-card {
+    border: none;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+}
+
+
+.chart-container {
+    position: relative;
+    height: 320px;
+    width: 100%;
+}
