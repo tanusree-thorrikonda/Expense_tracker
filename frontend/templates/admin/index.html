@@ -1,7 +1,10 @@
 {% extends 'admin/master.html' %}
 
-{% block body %}
+{% block page_body %}
 <div class="container text-center mt-5">
+    {% block messages %}
+        {{ super() }}
+    {% endblock %}
     <div class="row justify-content-center">
         <div class="col-md-8">
             <!-- Centered Header -->
