@@ -102,3 +102,76 @@ body {
     height: 320px;
     width: 100%;
 }
+
+
+/* Profile Avatar and Dropdown Styling */
+.profile-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    transition: all 0.2s ease;
+    user-select: none;
+    text-transform: uppercase;
+}
+
+.profile-avatar:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 12px rgba(13, 110, 253, 0.4);
+}
+
+.profile-dropdown-menu {
+    min-width: 260px;
+    padding: 1.25rem;
+    border: none;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    margin-top: 10px !important;
+}
+
+.profile-menu-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #e9ecef;
+    margin-bottom: 0.75rem;
+    text-align: center;
+}
+
+.profile-menu-header .avatar-large {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    border: 2px solid rgba(13, 110, 253, 0.1);
+}
+
+.profile-menu-header .username {
+    font-weight: 600;
+    font-size: 16px;
+    color: #212529;
+    margin-bottom: 0.15rem;
+}
+
+.profile-menu-header .email {
+    font-size: 13px;
+    color: #6c757d;
+    word-break: break-all;
+}
