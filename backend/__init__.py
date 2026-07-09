@@ -24,6 +24,7 @@ def create_app():
 
 
     app.register_blueprint(auth_bp)
+    app.register_blueprint(transaction_bp)
 
     @app.context_processor
     def inject_user():
